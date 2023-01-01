@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		Parallax Effect
+	</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		body, html{
+			height: 100%;
+			font-family: 'Trebuchet MS', sans-serif;
+		}
+		#caixa1,#caixa2{
+			height: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+			position: relative;
+		}
+		#caixa1{
+			background-image: url('imagens/imagem1.jpg');
+		}
+		#caixa2{
+			background-image: url('imagens/imagem2.jpg');
+		}
+		#conteudo{
+			height: 200px;
+			padding: 50px;
+		}
+		#escritas{
+			margin: 0 auto;
+			text-align: center;
+		}
+		h3{
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+			margin-bottom: 5px;
+		}
+		#centralizar{
+			position:absolute;
+			left: 0;
+			top: 45%;
+			width: 100%;
+			text-align: center;
+		}
+		#centralizar span.centro{
+			padding: 15px;
+			color: white;
+			letter-spacing: 0.2em;
+			background-color: gray;
+			font-size: 2em;
+			opacity: 0.8;
+
+		}
+	</style>
+</head>
+<body>
+	<div id="caixa1">
+		<div id="centralizar">
+			<span class="centro">
+				LISSAI
+			</span>
+		</div>
+	</div>
+	<div id="conteudo">
+		<div id="escritas">
+			<h3>
+				Parallax Effect
+			</h3>
+			<p>
+				Main purpose here is creating a website with the parralax effect acting on it.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mauris sapien, aliquam quis egestas nec, malesuada non leo. Aliquam egestas magna et lorem ultricies, in cursus augue auctor. Nullam sed justo semper, malesuada erat a, elementum mauris. In bibendum risus ut elit suscipit, vitae mattis nulla posuere. Suspendisse potenti. Phasellus congue leo in eros euismod viverra. Pellentesque eget aliquam lacus. Quisque bibendum ipsum sit amet est dapibus, sed vulputate sem faucibus. Suspendisse hendrerit nisi ex, vitae condimentum nulla imperdiet congue. Nunc scelerisque nulla justo, ut pharetra nunc ultrices non. Mauris fermentum mauris ut nunc dapibus dignissim. Donec massa elit, aliquet at turpis condimentum, faucibus dapibus mauris.
+			</p>
+			
+		</div>
+	</div>
+	<div id="caixa2">
+		
+	</div>
+</body>
+</html>
